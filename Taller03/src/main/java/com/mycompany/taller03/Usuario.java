@@ -20,7 +20,12 @@ public class Usuario {
         this.nombre = nombre;
         this.apellido = apellido;
     }
-
+    protected boolean logIn(){
+        return true;
+    }
+    protected boolean logOut(){
+        return true;
+    }
     public String getUsuario() {
         return Usuario;
     }
