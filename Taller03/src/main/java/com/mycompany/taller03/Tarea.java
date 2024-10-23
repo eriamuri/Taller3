@@ -8,8 +8,6 @@ package com.mycompany.taller03;
  *
  * @author cesar
  */
-public class Foro {
-    private String id;
-    private String Tematica;
-    private int numComentarios;
+public class Tarea {
+    
 }
