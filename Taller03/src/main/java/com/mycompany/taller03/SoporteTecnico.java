@@ -1,21 +1,18 @@
 package com.mycompany.taller03;
 
 public class SoporteTecnico {
-    public void crearUsuarioConRol(String usuario, String contraseña){
+    public void brindarAsistencia(Usuario usuario){
         /*aqui va codigo */
 
     }
-    public void asignarPermiso(String usuario){
-        /*aqui va codigo */
-
-    }
-
-    public void actualizarSoftware(){
+    public void resolverProblemaTecnico(Usuario usuario){
         /*aqui va codigo */
 
     }
 
-    public void asignarResponsable(Curso curso, Profesor responsable){
+    public void derivarProblemaDeGestion(Administrador administrador){
         /*aqui va codigo */
+
     }
+
 }
