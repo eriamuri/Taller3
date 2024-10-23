@@ -1,6 +1,11 @@
 package com.mycompany.taller03;
 
-public class Administrador {
+public class Administrador extends Usuario{
+    public Administrador(String Usuario, String contrasenia, String nombre, String apellido) {
+        super(Usuario, contrasenia, nombre, apellido);
+    }
+    
+    
     public void crearUsuarioConRol(String usuario, String contraseña){
         /*aqui va codigo */
 
