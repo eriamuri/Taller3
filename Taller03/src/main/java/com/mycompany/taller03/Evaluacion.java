@@ -11,7 +11,7 @@ import java.util.Date;
  * @author cesar
  */
 public class Evaluacion extends ActividadSumativa{
-    int limiteDeTiempo;
+    private int limiteDeTiempo;
 
     public Evaluacion(String titulo, Date fechaEntrega, float puntajeMaximo, String contenido, float calificacion,
             String id, int limiteDeTiempo) {
