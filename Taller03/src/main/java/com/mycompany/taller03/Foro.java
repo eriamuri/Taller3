@@ -11,5 +11,32 @@ package com.mycompany.taller03;
 public class Foro {
     private String id;
     private String Tematica;
-    private int numComentarios;
+    private int numDeComentarios;
+     
+    public Foro(String id, String tematica, int numDeComentarios) {
+        this.id = id;
+        Tematica = tematica;
+        this.numDeComentarios = numDeComentarios;
+    }
+    
+    public String getId() {
+        return id;
+    }
+    public void setId(String id) {
+        this.id = id;
+    }
+    public String getTematica() {
+        return Tematica;
+    }
+    public void setTematica(String tematica) {
+        Tematica = tematica;
+    }
+    public int getNumDeComentarios() {
+        return numDeComentarios;
+    }
+    public void setNumDeComentarios(int numDeComentarios) {
+        this.numDeComentarios = numDeComentarios;
+    }
+
+    
 }
