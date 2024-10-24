@@ -2,9 +2,9 @@ package com.mycompany.taller03;
 
 public class Profesor extends Personal_Academico{
 
-
-
-
+    public Profesor(String Usuario, String contrasenia, String nombre, String apellido) {
+        super(Usuario, contrasenia, nombre, apellido);
+    }
 
     public void cargarActividadSumativa(Curso curso, ActividadSumativa ActividadSumativa){
         /*aqui va codigo */
