@@ -12,12 +12,24 @@ public class Foro {
     private String id;
     private String Tematica;
     private int numDeComentarios;
-     
-    public Foro(String id, String tematica, int numDeComentarios) {
+    private Curso curso;
+
+    public Foro(String id, String Tematica, int numDeComentarios, Curso curso) {
         this.id = id;
-        Tematica = tematica;
+        this.Tematica = Tematica;
         this.numDeComentarios = numDeComentarios;
+        this.curso = curso;
     }
+
+    public Curso getCurso() {
+        return curso;
+    }
+
+    public void setCurso(Curso curso) {
+        this.curso = curso;
+    }
+     
+    
     
     public String getId() {
         return id;

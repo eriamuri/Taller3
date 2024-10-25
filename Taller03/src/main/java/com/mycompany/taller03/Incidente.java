@@ -20,8 +20,10 @@ public class Incidente {
     protected List log_actualizaciones;
     protected Date fecha_cerrado;
     protected String tipo;
+    protected Personal_Academico usuarioIngresa;
+    protected Usuario usuarioAtiende;
 
-    public Incidente(int id, Date fecha_reportado, String estado, String titulo, String descripcion, List log_actualizaciones, Date fecha_cerrado, String tipo) {
+    public Incidente(int id, Date fecha_reportado, String estado, String titulo, String descripcion, List log_actualizaciones, Date fecha_cerrado, String tipo, Personal_Academico usuarioIngresa, Usuario usuarioAtiende) {
         this.id = id;
         this.fecha_reportado = fecha_reportado;
         this.estado = estado;
@@ -30,8 +32,27 @@ public class Incidente {
         this.log_actualizaciones = log_actualizaciones;
         this.fecha_cerrado = fecha_cerrado;
         this.tipo = tipo;
+        this.usuarioIngresa = usuarioIngresa;
+        this.usuarioAtiende = usuarioAtiende;
     }
 
+    public Personal_Academico getUsuarioIngresa() {
+        return usuarioIngresa;
+    }
+
+    public void setUsuarioIngresa(Personal_Academico usuarioIngresa) {
+        this.usuarioIngresa = usuarioIngresa;
+    }
+
+    public Usuario getUsuarioAtiende() {
+        return usuarioAtiende;
+    }
+
+    public void setUsuarioAtiende(Usuario usuarioAtiende) {
+        this.usuarioAtiende = usuarioAtiende;
+    }
+
+   
     public int getId() {
         return id;
     }
